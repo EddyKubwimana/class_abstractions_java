@@ -12,5 +12,11 @@ public static void main(String[] args){
     System.out.println(carre.getSides());
     System.out.println(carre.getPerimeter());
     System.out.println(carre.getSurface());
+    System.out.println(carre instanceof  Cote4Figure);
+    System.out.println(carre instanceof  Figure);
+    System.out.println(carre instanceof  Shape);
+    System.out.println(carre instanceof  Carre);
+
+
 }
 }
