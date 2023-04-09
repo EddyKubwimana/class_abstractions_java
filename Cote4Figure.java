@@ -19,8 +19,9 @@ public abstract class Cote4Figure extends Figure{
         return this.side1*this.side2;
     }
     @Override
-    public void getVolume(){
+    public double getVolume(){
         System.out.println(" no volume can be computed because the figure is two D");
+        return 0;
     }
 
 
